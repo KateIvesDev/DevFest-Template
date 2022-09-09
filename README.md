@@ -1,3 +1,40 @@
+
+# DevFest 2022 Website Template
+
+Are you looking for a website template for your GDG DevFest 2022? Feel free to use this one!
+
+This website was made with React and Tailwind CSS. The primary font is Google Sans (included). We followed the brand color guidelines recommended by GDG and all of our graphics are from the GDG DevFest brand guidelines.
+
+We used Netlify for hosting. If you also use Netlify, make sure to add a _redirects file to your public folder with the following line: '/* /index.html 200' (no quotes). If you don't, your React Router pages won't work and you will be sad!
+
+We are managing our speakers through Sessionize https://sessionize.com/. Sessionize has an API to pull in your speaker bios and speaker sessions. This is how we pull in the data for the speakers. It updates everytime you confirm a speaker! 
+
+## How to Clone This Project
+
+1. Open your terminal and type $ git clone {the url of this repo}
+2. cd into the new folder and type $ npm install
+3. Run the React project from your terminal with $ npm start
+   
+
+## React Dependencies
+
+The following React dependencies/tools were also used to make this website:
+
+React Router: https://reactrouter.com/en/main/getting-started/installation
+
+React Icons: https://react-icons.github.io/react-icons/
+
+React Burger Menu: https://negomi.github.io/react-burger-menu/ 
+
+React Modal (for Speaker Bios): http://reactcommunity.org/react-modal/
+
+
+## Meta Tags and Schema Structured Data
+Do you want your website link to look great when you share on social media? Make sure to edit the meta tags on the index.html! Note: This is only setup to work for sharing your main website link, not subpage links. Important: Make sure to replace the images with YOUR DEVFEST images and follow recommended image size guidelines for Twitter and Open Graph. Canva is your friend! 
+
+Do you want Google to pick up your site as an event? Make sure to edit the event schema section on the index.html! Note: This is not guaranteed to work. But maybe? Learn more: https://developers.google.com/search/docs/advanced/structured-data/event
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

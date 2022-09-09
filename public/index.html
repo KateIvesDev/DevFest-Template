@@ -5,10 +5,30 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
+    <!-- COMMON TAGS -->
+    <meta charset="utf-8">
+    <title>DevFest YOUR CITY - YOUR DATE | Google Developer Groups - YOUR CITY</title>
+    <!-- Search Engine -->
+    <meta name="description" content="DevFest YOUR CITY is a community-run, one-day conference aimed to bring technologists, developers, students, tech companies, and speakers together in one location to learn, discuss and experiment with technology. Organized by Google Developer Groups YOUR CITY.">
+    <meta name="image" content="https://www.devfestbr.com/DevFest-Baton-Rouge-GraphImage.png"><!--CHANGE THIS IMAGE-->
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="DevFest YOUR CITY - YOUR DATE | Google Developer Groups - YOUR CITY">
+    <meta itemprop="description" content="DevFest YOUR CITY is a community-run, one-day conference aimed to bring technologists, developers, students, tech companies, and speakers together in one location to learn, discuss and experiment with technology. Organized by Google Developer Groups YOUR CITY.">
+    <meta itemprop="image" content="https://www.devfestbr.com/DevFest-Baton-Rouge-GraphImage.png"> <!--CHANGE THIS IMAGE-->
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DevFest YOUR CITY 2022 | Google Developer Groups - YOUR CITY">
+    <meta name="twitter:description" content="DevFest YOUR CITY is a community-run, one-day conference aimed to bring technologists, developers, students, tech companies, and speakers together in one location to learn, discuss and experiment with technology. Organized by Google Developer Groups YOUR CITY.">
+    <meta name="twitter:site" content="YOUR TWITTER HANDLE">
+    <meta name="twitter:creator" content="YOUR TWITTER HANDLE">
+    <meta name="twitter:image:src" content="https://www.devfestbr.com/DevFest-BatonRouge-Twitter-Preview.png"><!--CHANGE THIS IMAGE MAKE SURE IT FOLLOWS TWITTER IMAGE SIZE GUIDELINES-->
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="DevFest YOUR CITY 2022 | Google Developer Groups - YOUR CITY">
+    <meta name="og:description" content="DevFest YOUR CITY is a community-run, one-day conference aimed to bring technologists, developers, students, tech companies, and speakers together in one location to learn, discuss and experiment with technology. Organized by Google Developer Groups YOUR CITY.">
+    <meta name='image' property="og:image" content="https://www.devfestbr.com/DevFest-Baton-Rouge-GraphImage.png"> <!--CHANGE THIS IMAGE MAKE SURE IT FOLLOWS OPEN GRAPH IMAGE SIZE GUIDELINES-->
+    <meta name="og:url" content="https://www.devfestbr.com">
+    <meta name="og:site_name" content="DevFest YOUR CITY">
+    <meta name="og:type" content="website">
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -24,7 +44,40 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>DevFest YOUR CITY - YOUR DATE | Google Developer Groups - YOUR CITY</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "DevFest YOUR CITY",
+        "startDate": "2022-10-29T8:00",
+        "endDate": "2022-10-29T17:00",
+        "url": "YOUR WEBSITE",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "location": {
+          "@type": "Place",
+          "name": "YOUR VENUE",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "STREET ADDRESS",
+            "addressLocality": "CITY",
+            "postalCode": "ZIP",
+            "addressRegion": "STATE",
+            "addressCountry": "US"
+          }
+        },
+        "image": [
+          "https://www.devfestbr.com/DevFest-Baton-Rouge-GraphImage.png" 
+         ],
+        "description": "DevFest YOUR CITY is a community-run, one-day conference aimed to bring technologists, developers, students, tech companies, and speakers together in one location to learn, discuss and experiment with technology.",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Google Developer Groups YOUR CITY",
+          "url": "YOUR GDG CHAPTER WEBSITE"
+        }
+      }
+      </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
