@@ -51,7 +51,7 @@ const Sidebar = () => {
                 </div>
                 <ul className='text-right'>
                     <li className='my-5'><NavLink onClick={() => handleCloseMenu()} to="/" className='text-white'>Home</NavLink> </li>
-                    <li className='my-5 text-white'><a href='https://gdg.community.dev/events/details/google-gdg-baton-rouge-presents-devfest-baton-rouge-2022/'>Register</a></li>
+                    <li className='my-5 text-white'><a href='https://gdg.community.dev'>Register</a></li>
                     <li className='my-5'><NavLink onClick={() => handleCloseMenu()} to="/speakers" className='text-white'>Speakers</NavLink> </li>
                     <li className='my-5'><NavLink onClick={() => handleCloseMenu()} to='/sponsors' className='text-white'>Sponsors</NavLink> </li>
                     <li className='my-5'><NavLink onClick={() => handleCloseMenu()} to='/schedule' className='text-white'>Schedule</NavLink></li>

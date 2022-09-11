@@ -12,7 +12,8 @@ const customStyles = {
       bottom: 'auto',
       marginRight: '-50%',
       transform: 'translate(-50%, -50%)',
-      width: '80%'
+      width: '80%',
+      height: '50vh'
     },
   };
 
@@ -32,6 +33,7 @@ const BioModal = ( {speaker} ) => {
             <button onClick={setModalIsOpenToTrue} className='space-x-4 text-xxl vertical-align-top hover:text-white' aria-label='Speaker Bio'><BsPersonLinesFill/></button>
 
             <Modal 
+            appElement={document.getElementById('root')}
             isOpen={modalIsOpen}
             onRequestClose={setModalIsOpenToFalse}
             style={customStyles}>

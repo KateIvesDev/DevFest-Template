@@ -44,7 +44,7 @@ const SpeakerProfiles = () => {
                                             link.title = <FaTwitter/>
                                         } else if (link.title === 'LinkedIn'){
                                             link.title = <FaLinkedin/>
-                                        } else if (link.title === 'Company Website' || link.title === 'Blog')
+                                        } else if (link.title === 'Company Website' || link.title === 'Blog' || link.title === 'Website')
                                             link.title = <FaGlobe/>
                                         }
                                     )}
