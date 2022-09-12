@@ -15,7 +15,7 @@ const Speakers = () => (
             </p>
             <p className='font-semibold my-10'>Speakers from historically underrepresented groups in tech are encouraged to apply to speak at DevFest {process.env.REACT_APP_CHAPTER_NAME}.
             </p>
-            <a href='https://sessionize.com/' className='text-white bg-Blue500 hover:text-white focus:ring-4 focus:ring-Blue500 rounded-full text-md px-6 py-4 my-5'>Submit Your Tech Talk!</a>
+            <a href={process.env.REACT_APP_SPEAKER_FORM_URL} className='text-white bg-Blue500 hover:text-white focus:ring-4 focus:ring-Blue500 rounded-full text-md px-6 py-4 my-5'>Submit Your Tech Talk!</a>
         </div>
     </div>
     <SpeakerProfiles />
