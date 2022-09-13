@@ -20,7 +20,7 @@ const Sponsors = () => (
             <p className='my-10 text-lg'><span className='font-semibold'>Support the {process.env.REACT_APP_CHAPTER_NAME} Tech Community:</span> We are excited to be a part of the growing tech community in {process.env.REACT_APP_CHAPTER_NAME}. Join us!
             </p>
             <a href={'mailto:' + process.env.REACT_APP_DEVFEST_EMAIL} className='text-white bg-Green500 hover:text-white rounded-full text-md px-6 py-4 my-5'>Become a Sponsor</a>
-            <a href='https://drive.google.com/file/d/1pjvZxFx67WWNqYvubWen6lYl5NIZS0DV/view?usp=sharing' className='block font-semibold hover:text-Blue500 my-10'>Download Sponsor Packages</a>
+            <a href={process.env.REACT_APP_CALL_FOR_SPONSORS} className='block font-semibold hover:text-Blue500 my-10'>Download Sponsor Packages</a>
         </div>
         
     </div>
