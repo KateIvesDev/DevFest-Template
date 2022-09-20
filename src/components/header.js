@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/DevFest-Baton-Rouge-Logo.png';
+import logo from '../assets/DevFest-2022-Logo.png';
 import HamburgerMenu from './hamburger.js';
 import Navbar from './navbar.js';
 
