@@ -1,4 +1,5 @@
 import React from 'react';
+import VenueImage from '../assets/temp-venue-placeholder.jpeg';
 
 const LocationSection = () => (
 
@@ -6,7 +7,7 @@ const LocationSection = () => (
         <h2 className='text-center'>Venue</h2>
         <div className='w-11/12 sm:my-5 mx-auto grid grid-cols-1 lg:grid-cols-2'>
             <div className="mx-auto px-4">
-                <a href="https://www.google.com"><img src="https://www.lsu.edu/business/images/news-images/2022-news-images/bec-aerial-thumbnail.jpg" className='rounded-2xl overflow-hidden' alt='LOCATION'></img>
+                <a href="https://www.google.com"><img src={VenueImage} className='rounded-2xl overflow-hidden' alt='LOCATION'></img>
                 </a>
             </div>
             <div className="mx-auto px-4 text-center">
