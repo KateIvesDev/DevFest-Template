@@ -10,7 +10,8 @@ const Footer = () => (
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 w-11/12 mx-auto'>
             <div className=''>
                 <h3>About GDG {process.env.REACT_APP_CHAPTER_NAME}</h3>
-                <p>GDG {process.env.REACT_APP_CHAPTER_NAME} is a monthly meetup for technologists and developers from the {process.env.REACT_APP_CHAPTER_NAME} area to code, learn, have fun and give back. 
+                <p>
+                    {process.env.REACT_APP_CHAPTER_ABOUT} 
                 </p>
                 <a href='https://gdg.community.dev/'>
                     <img src={gdg_logo} className='my-3 p-5 bg-white rounded-xl' alt='GDG {process.env.REACT_APP_CHAPTER_NAME} logo'></img>
