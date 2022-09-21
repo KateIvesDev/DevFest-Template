@@ -11,11 +11,11 @@ const Speakers = () => (
         </div>
         <div className='px-5 my-5'>
             <h1>Call for Speakers</h1>
-            <p>We are looking for speakers for DevFest YOUR CITY! We are open to a variety of topics, with emphasis on topics of interest for early-mid career developers.  Are you an amazing technologist with something awesome to share with the YOUR CITY tech community? We want to hear from you!
+            <p>We are looking for speakers for DevFest {process.env.REACT_APP_CHAPTER_NAME}! We are open to a variety of topics, with emphasis on topics of interest for early-mid career developers.  Are you an amazing technologist with something awesome to share with the {process.env.REACT_APP_CHAPTER_NAME} tech community? We want to hear from you!
             </p>
-            <p className='font-semibold my-10'>Speakers from historically underrepresented groups in tech are encouraged to apply to speak at DevFest YOUR CITY.
+            <p className='font-semibold my-10'>Speakers from historically underrepresented groups in tech are encouraged to apply to speak at DevFest {process.env.REACT_APP_CHAPTER_NAME}.
             </p>
-            <a href='https://sessionize.com/' className='text-white bg-Blue500 hover:text-white focus:ring-4 focus:ring-Blue500 rounded-full text-md px-6 py-4 my-5'>Submit Your Tech Talk!</a>
+            <a href={process.env.REACT_APP_SPEAKER_FORM_URL} className='text-white bg-Blue500 hover:text-white focus:ring-4 focus:ring-Blue500 rounded-full text-md px-6 py-4 my-5'>Submit Your Tech Talk!</a>
         </div>
     </div>
     <SpeakerProfiles />
