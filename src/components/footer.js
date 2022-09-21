@@ -39,16 +39,16 @@ const Footer = () => (
                 <a href={'mailto:' + process.env.REACT_APP_DEVFEST_EMAIL} className='block' aria-label='send email to GDG {process.env.REACT_APP_CHAPTER_NAME}'>{process.env.REACT_APP_DEVFEST_EMAIL}</a>
                 <ul className='inline-flex space-x-4 text-xl my-4'>
                     <li>
-                        <a href='https://gdg.community.dev/' aria-label='GDG Chapter Website'><FaGlobe /></a>
+                        <a href={process.env.REACT_APP_SOCIAL_WEBSITE} aria-label='GDG Chapter Website'><FaGlobe /></a>
                     </li>
                     <li>
-                        <a href='https://www.twitter.com/' aria-label='follow GDG {process.env.REACT_APP_CHAPTER_NAME} on Twitter'><FaTwitter /></a>
+                        <a href={'https://twitter.com/' + process.env.REACT_APP_SOCIAL_TWITTER} aria-label='follow GDG {process.env.REACT_APP_CHAPTER_NAME} on Twitter'><FaTwitter /></a>
                     </li>
                     <li>
-                        <a href='https://www.linkedin.com/' aria-label='follow GDG {process.env.REACT_APP_CHAPTER_NAME} on LinkedIn'><FaLinkedin /></a>
+                        <a href={process.env.REACT_APP_SOCIAL_LINKEDIN} aria-label='follow GDG {process.env.REACT_APP_CHAPTER_NAME} on LinkedIn'><FaLinkedin /></a>
                     </li>
                     <li>
-                        <a href='https://www.meetup.com/' aria-label='follow GDG {process.env.REACT_APP_CHAPTER_NAME} on Meetup'><FaMeetup /></a>
+                        <a href={process.env.REACT_APP_SOCIAL_MEETUP} aria-label='follow GDG {process.env.REACT_APP_CHAPTER_NAME} on Meetup'><FaMeetup /></a>
                     </li>
                 </ul>
             </div>
