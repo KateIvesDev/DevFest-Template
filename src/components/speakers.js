@@ -1,8 +1,7 @@
 
-import React, {useEffect, useState} from 'react';
-import { Link } from 'react-router-dom'
-import { FaTwitter, FaLinkedin, FaGlobe } from 'react-icons/fa';
-import BioModal from './modal'
+import React, { useEffect, useState } from 'react';
+import { FaGlobe, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import BioModal from './modal';
 
 
 const SpeakerProfiles = () => {
@@ -10,7 +9,7 @@ const SpeakerProfiles = () => {
     const [speakers, setSpeakers] = useState([])
    
     const fetchData = () => {
-        fetch('https://sessionize.com/api/v2/axcs5701/view/Speakers')
+        fetch('https://sessionize.com/api/v2/0lpmroyx/view/Speakers')
         .then(response => {
             return response.json()
         })
@@ -62,7 +61,7 @@ const SpeakerProfiles = () => {
                 )}
             </div>
             <div className='m-10'>
-                <Link to="/speakers" className='text-white bg-Blue500 hover:text-white rounded-full text-md px-6 py-4'>Become a Speaker</Link> 
+                <a href={process.env.REACT_APP_SPEAKER_FORM_URL} className='text-white bg-Blue500 hover:text-white rounded-full text-md px-6 py-4'>Become a Speaker</a> 
             </div>
          </section>
     )}

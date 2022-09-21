@@ -4,10 +4,10 @@ const Policy = () => (
 
     <div className='w-3/4 mx-auto my-10'>
         <h1 className='text-center'>Code of Conduct and Anti-Harassment Policy</h1>
-        <p>Google Developer Groups ("GDG") YOUR CITY is dedicated to providing a harassment-free and inclusive event experience for everyone regardless of gender identity and expression, sexual orientation, disabilities, neurodiversity, physical appearance, body size, ethnicity, nationality, race, age, religion, or other protected category. We do not tolerate harassment of event participants in any form. GDG YOUR CITY takes violations of our policy seriously and will respond appropriately.
+        <p>Google Developer Groups ("GDG") {process.env.REACT_APP_CHAPTER_NAME} is dedicated to providing a harassment-free and inclusive event experience for everyone regardless of gender identity and expression, sexual orientation, disabilities, neurodiversity, physical appearance, body size, ethnicity, nationality, race, age, religion, or other protected category. We do not tolerate harassment of event participants in any form. GDG {process.env.REACT_APP_CHAPTER_NAME} takes violations of our policy seriously and will respond appropriately.
         <br />
         <br />
-        All participants of GDG YOUR CITY events must abide by the following policy:</p>
+        All participants of GDG {process.env.REACT_APP_CHAPTER_NAME} events must abide by the following policy:</p>
         <h2>Be Excellent To Each Other</h2>
         <p>We want the event to be an excellent experience for everyone regardless of gender identity and expression, sexual orientation, disabilities, neurodiversity, physical appearance, body size, ethnicity, nationality, race, age, religion, or other protected category. Treat everyone with respect. Participate while acknowledging that everyone deserves to be here -- and each of us has the right to enjoy our experience without fear of harassment, discrimination, or condescension, whether blatant or via micro-aggressions. Jokes shouldn’t demean others. Consider what you are saying and how it would feel if it were said to or about you.</p>
         <h2>Speak Up If You See Or Hear Something</h2>
@@ -26,7 +26,7 @@ const Policy = () => (
             </ul>
         <p>We are dedicated to providing a harassment-free and inclusive event experience for everyone regardless of gender identity and expression, sexual orientation, disabilities, neurodiversity, physical appearance, body size, ethnicity, nationality, race, age, religion, or other protected category. We do not tolerate harassment of event participants in any form. We take violations of our policy seriously and will respond appropriately.</p>
         
-        <p> All participants of GDG YOUR CITY events, including in-person and online attendees, event staff, speakers, and Googlers, must abide by this policy. Zero tolerance policy applies to harassment of any kind, in relation to, but not limited to:</p>
+        <p> All participants of GDG {process.env.REACT_APP_CHAPTER_NAME} events, including in-person and online attendees, event staff, speakers, and Googlers, must abide by this policy. Zero tolerance policy applies to harassment of any kind, in relation to, but not limited to:</p>
         <ul className='list-disc list-inside pl-5'>
             <li>Neurodiversity</li>
             <li>Race</li>
@@ -45,7 +45,7 @@ const Policy = () => (
             <li>Social demographic</li>
         </ul>
     
-        <p>Participants asked to stop any harassing behavior are expected to comply immediately. This policy extends to talks, forums, workshops, codelabs, social media, parties, hallway conversations, all attendees, partners, sponsors, volunteers, event staff, etc. You catch our drift. GDG YOUR CITY reserves the right to refuse admittance to, or remove any person from, any GDG YOUR CITY  hosted event (including future GDG YOUR CITY events) at any time in its sole discretion. This includes, but is not limited to, attendees behaving in a disorderly manner or failing to comply with this policy, and the terms and conditions herein. If a participant engages in harassing or uncomfortable behavior, the event organizers may take any action they deem appropriate, including warning or expelling the offender from the event with no refund.
+        <p>Participants asked to stop any harassing behavior are expected to comply immediately. This policy extends to talks, forums, workshops, codelabs, social media, parties, hallway conversations, all attendees, partners, sponsors, volunteers, event staff, etc. You catch our drift. GDG {process.env.REACT_APP_CHAPTER_NAME} reserves the right to refuse admittance to, or remove any person from, any GDG {process.env.REACT_APP_CHAPTER_NAME}  hosted event (including future GDG {process.env.REACT_APP_CHAPTER_NAME} events) at any time in its sole discretion. This includes, but is not limited to, attendees behaving in a disorderly manner or failing to comply with this policy, and the terms and conditions herein. If a participant engages in harassing or uncomfortable behavior, the event organizers may take any action they deem appropriate, including warning or expelling the offender from the event with no refund.
         </p>
         <p>Our event staff can usually be identified by special badges/attire. Our zero tolerance policy means that we will look into and review every allegation of violation of our Event Community Guidelines and Anti-Harassment Policy and respond appropriately. Please note, while we take all concerns raised seriously, we will use our discretion as to determining when and how to follow up on reported incidents, and may decline to take any further action and/or may direct the participant to other resources for resolution.
         </p>
@@ -55,7 +55,7 @@ const Policy = () => (
         </p>
         <h2>Reporting</h2>
         <p>If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible. Harassment and other code of conduct violations reduce the value of our event for everyone. We want you to be happy at our event. People like you make our event a better place.</p>
-        <p>You can make a report either personally to <a href='mailto:' className='font-semibold hover:text-Blue500'>YOUR EMAIL</a> or anonymously at <a href='https://google.forms' className='font-semibold hover:text-Blue500'>YOUR FORM</a>. We can't follow up on an anonymous report with you directly, but we will fully investigate it and take whatever action is necessary to prevent a recurrence.</p>
+        <p>You can make a report either personally to <a href={'mailto:' + process.env.REACT_APP_DEVFEST_EMAIL} className='font-semibold hover:text-Blue500'>{process.env.REACT_APP_DEVFEST_EMAIL}</a> or anonymously on <a href={process.env.REACT_APP_COC_REPORT_FORM} className='font-semibold hover:text-Blue500'>our form</a>. We can't follow up on an anonymous report with you directly, but we will fully investigate it and take whatever action is necessary to prevent a recurrence.</p>
         <h2>Why This Policy Is Important</h2>
         <p>Harassment at events and in online communities is unfortunately common. Creating an official policy aims to improve this by making it clear that harassment of anyone for any reason is not acceptable within our events and communities. This policy may prevent harassment by clearly defining expectations for behavior, aims to provide reassurance, and encourages people who have had bad experiences at other events to participate in this one.</p>
         <h2>License and Attribution</h2>
