@@ -11,13 +11,13 @@ const LocationSection = () => (
                 </a>
             </div>
             <div className="mx-auto px-4 text-center">
-                <p className='text-xl lg:text-left lg:pt-0'>We're excited to announce that DevFest {process.env.REACT_APP_CHAPTER_NAME} will take place at  <span className="font-semibold">SOME GREAT VENUE.</span></p>
+                <p className='text-xl lg:text-left lg:pt-0'>We're excited to announce that DevFest {process.env.REACT_APP_CHAPTER_NAME} will take place at <span className="font-semibold">SOME GREAT VENUE.</span></p>
                 
-                <a href="https://goo.gl/maps/F4jd31TPjhq39dGX9" className='hover:text-Blue500 lg:text-left'>
+                <a href="https://www.google.com/maps" className='hover:text-Blue500 lg:text-left'>
                     <p className='text-lg'>VENUE<br />
                    ADDRESS<br />
                    ADDRESS<br />
-                   {process.env.REACT_APP_CHAPTER_NAME}, YOUR STATE YOUR ZIP
+                   , YOUR STATE YOUR ZIP
                     </p>
                 </a>
         </div>
