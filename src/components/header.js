@@ -8,11 +8,7 @@ const Header = () => (
     <nav className="flex justify-between items-center w-11/12 mx-auto py-3">
       <div className="w-64">
         <a href={process.env.REACT_APP_SOCIAL_WEBSITE}>
-          <img
-            src={logo}
-            className=" h-13 sm:h-20 p-4 sm:p-0"
-            alt="DevFest Logo"
-          />
+          <img src={logo} className="p-4 sm:p-0" alt="DevFest Logo" />
         </a>
       </div>
       <div>
