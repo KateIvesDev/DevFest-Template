@@ -1,18 +1,19 @@
-import React from "react";
-import GoogleLogo from "../assets/sponsors/Google_2015_logo.png";
+import React from 'react';
+import GoogleLogo from '../assets/sponsors/Google_2015_logo.png';
+import BEXRealty from '../assets/sponsors/BEXRealty.jpg';
 
 const SponsorLogos = () => (
-  <div className="text-center my-20">
+  <div className='text-center my-20'>
     <h2>Sponsors</h2>
     <p>Thank you to our sponsors for their generous support.</p>
 
-    <section className="my-20">
-      <h3 className="my-10 font-semibold">Platinum</h3>
-      <div className="flex w-full h-full px-10 justify-center">
+    <section className='my-20'>
+      <h3 className='my-10 font-semibold'>Platinum</h3>
+      <div className='flex w-full h-full px-10 justify-center'>
         <img
           src={GoogleLogo}
-          alt="Google Logo"
-          className="object-contain h-36 w-full"
+          alt='Google Logo'
+          className='object-contain h-36 w-full'
         ></img>
       </div>
     </section>
@@ -28,19 +29,27 @@ const SponsorLogos = () => (
           ></img>
         </a>
       </div>
+    </section> */}
+
+    <section className='my-20'>
+      <h3 className='my-10 font-semibold'>Silver</h3>
+      <div className='flex w-full h-full px-10 justify-center border-slate-100'>
+        <a href='https://www.bexrealty.com/' target='blank'>
+          <img
+            src={BEXRealty}
+            alt='BEX Realty Logo'
+            className='object-contain h-56 w-full rounded-lg '
+          />
+        </a>
+      </div>
     </section>
 
-    <section className="my-20">
-      <h3 className="my-10 font-semibold">Silver</h3>
-      <div></div>
-    </section>
-
-    <section className="my-20">
+    {/* <section className="my-20">
       <h3 className="my-10 font-semibold">Bronze</h3>
       <div></div>
-    </section>
+    </section> */}
 
-    <section className="my-20">
+    {/* <section className="my-20">
       <h3 className="my-10 font-semibold">Startup</h3>
       <div className="flex w-full h-full justify-center">
         <a href="https://www.google.com">
@@ -51,9 +60,9 @@ const SponsorLogos = () => (
           ></img>
         </a>
       </div>
-    </section>
+    </section> */}
 
-    <section>
+    {/* <section>
       <h3 className="my-10 font-semibold">Supporters</h3>
       <div className="w-1/2 grid grid-cols-1 md:grid-cols-2 mx-auto">
         <div className="">
