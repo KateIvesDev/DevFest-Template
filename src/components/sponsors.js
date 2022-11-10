@@ -1,8 +1,8 @@
 import React from 'react';
-import GoogleLogo from '../assets/sponsors/Google_2015_logo.png';
-import BEXRealtyLogo from '../assets/sponsors/BEX_logo.jpg';
-import INITLogo from '../assets/sponsors/INIT_logo.png';
+import BEXRealtyLogo from '../assets/sponsors/BEX_Logo.jpg';
 import DevIntentLogo from '../assets/sponsors/DevIntent_logo.png';
+import GoogleLogo from '../assets/sponsors/Google_2015_logo.png';
+import INITLogo from '../assets/sponsors/INIT_logo.png';
 
 const SponsorLogos = () => (
   <div className='text-center my-20'>
