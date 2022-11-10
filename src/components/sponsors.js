@@ -74,7 +74,7 @@ const SponsorLogos = () => (
           >
             <img
               src={INITLogo}
-              alt=' Logo'
+              alt='Logo'
               className='object-contain h-36 w-full px-2'
             ></img>
           </a>
