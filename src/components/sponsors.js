@@ -1,6 +1,7 @@
 import React from 'react';
 import GoogleLogo from '../assets/sponsors/Google_2015_logo.png';
-import BEXRealty from '../assets/sponsors/BEXRealty.jpg';
+import BEXRealtyLogo from '../assets/sponsors/BEX_logo.jpg';
+import INITLogo from '../assets/sponsors/INIT_logo.png';
 
 const SponsorLogos = () => (
   <div className='text-center my-20'>
@@ -36,9 +37,9 @@ const SponsorLogos = () => (
       <div className='flex w-full h-full px-10 justify-center border-slate-100'>
         <a href='https://www.bexrealty.com/' target='blank'>
           <img
-            src={BEXRealty}
+            src={BEXRealtyLogo}
             alt='BEX Realty Logo'
-            className='object-contain h-56 w-full rounded-lg '
+            className='object-contain h-56 w-full rounded-2xl overflow-hidden'
           />
         </a>
       </div>
@@ -62,29 +63,33 @@ const SponsorLogos = () => (
       </div>
     </section> */}
 
-    {/* <section>
-      <h3 className="my-10 font-semibold">Supporters</h3>
-      <div className="w-1/2 grid grid-cols-1 md:grid-cols-2 mx-auto">
-        <div className="">
-          <a href="https://www.google.com">
+    <section>
+      <h3 className='my-10 font-semibold'>Supporters</h3>
+      <div className='w-1/2 grid grid-cols-1 md:grid-cols-1 mx-auto'>
+        <div className=''>
+          <a
+            href='http://www.weareinit.org/'
+            target={'_blank'}
+            rel='noreferrer'
+          >
             <img
-              src={GoogleLogo}
-              alt=" Logo"
-              className="object-contain h-36 w-full px-2"
+              src={INITLogo}
+              alt=' Logo'
+              className='object-contain h-36 w-full px-2'
             ></img>
           </a>
         </div>
-        <div>
-          <a href="https://www.google.com">
+        {/* <div>
+          <a href='https://www.google.com'>
             <img
               src={GoogleLogo}
-              alt="Jetbrains"
-              className="object-contain h-36 w-full px-2"
+              alt='Jetbrains'
+              className='object-contain h-36 w-full px-2'
             ></img>
           </a>
-        </div>
+        </div> */}
       </div>
-    </section> */}
+    </section>
 
     {/* <div className="m-16">
       <a
