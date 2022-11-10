@@ -2,6 +2,7 @@ import React from 'react';
 import GoogleLogo from '../assets/sponsors/Google_2015_logo.png';
 import BEXRealtyLogo from '../assets/sponsors/BEX_logo.jpg';
 import INITLogo from '../assets/sponsors/INIT_logo.png';
+import DevIntentLogo from '../assets/sponsors/DevIntent_logo.png';
 
 const SponsorLogos = () => (
   <div className='text-center my-20'>
@@ -34,14 +35,25 @@ const SponsorLogos = () => (
 
     <section className='my-20'>
       <h3 className='my-10 font-semibold'>Silver</h3>
-      <div className='flex w-full h-full px-10 justify-center border-slate-100'>
-        <a href='https://www.bexrealty.com/' target='blank'>
-          <img
-            src={BEXRealtyLogo}
-            alt='BEX Realty Logo'
-            className='object-contain h-56 w-full rounded-2xl overflow-hidden'
-          />
-        </a>
+      <div className='w-1/2 grid grid-cols-1 md:grid-cols-2 mx-auto'>
+        <div className='flex w-full h-full px-10 justify-center border-slate-100'>
+          <a href='https://www.bexrealty.com/' target='blank'>
+            <img
+              src={BEXRealtyLogo}
+              alt='BEX Realty Logo'
+              className='object-contain h-56 w-full rounded-2xl overflow-hidden'
+            />
+          </a>
+        </div>
+        <div className='flex w-full h-full px-10 justify-center border-slate-100'>
+          <a href='https://www.devintent.com/' target='blank'>
+            <img
+              src={DevIntentLogo}
+              alt='DevIntent Logo'
+              className='object-contain h-56 w-full rounded-2xl overflow-hidden'
+            />
+          </a>
+        </div>
       </div>
     </section>
 
