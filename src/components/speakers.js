@@ -24,7 +24,7 @@ const SpeakerProfiles = () => {
 
 
     return(
-        <section className='text-center mt-20 bg-LightBlue py-10'>
+        <section className='text-center bg-LightBlue py-10'>
         <h2 className="my-10">Featured Speakers</h2>
             <div className='w-11/12 mx-auto'>
                 {speakers.length > 0 && (
@@ -60,9 +60,9 @@ const SpeakerProfiles = () => {
                     </div>
                 )}
             </div>
-            <div className='m-10'>
+            {/* <div className='m-10'>
                 <a href={process.env.REACT_APP_SPEAKER_FORM_URL} className='text-white bg-Blue500 hover:text-white rounded-full text-md px-6 py-4'>Become a Speaker</a> 
-            </div>
+            </div> */}
          </section>
     )}
 
