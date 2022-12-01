@@ -4,6 +4,7 @@ import Cobuild from '../assets/sponsors/cobuild.png';
 import DevIntentLogo from '../assets/sponsors/DevIntent_logo.png';
 import GoogleLogo from '../assets/sponsors/Google_2015_logo.png';
 import INITLogo from '../assets/sponsors/INIT_logo.png';
+import JetBrainsLogo from '../assets/sponsors/jb_beam.png';
 
 const SponsorLogos = () => (
   <div className='text-center my-20'>
@@ -87,7 +88,20 @@ const SponsorLogos = () => (
           >
             <img
               src={INITLogo}
-              alt='Logo'
+              alt='INIT Logo'
+              className='object-contain h-36 w-full px-2'
+            ></img>
+          </a>
+        </div>
+        <div className=''>
+          <a
+            href='https://www.jetbrains.com/'
+            target={'_blank'}
+            rel='noreferrer'
+          >
+            <img
+              src={JetBrainsLogo}
+              alt='JetBrains Logo'
               className='object-contain h-36 w-full px-2'
             ></img>
           </a>
