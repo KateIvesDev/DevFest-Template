@@ -1,5 +1,6 @@
 import React from 'react';
 import BEXRealtyLogo from '../assets/sponsors/BEX_Logo.jpg';
+import Cobuild from '../assets/sponsors/cobuild.png';
 import DevIntentLogo from '../assets/sponsors/DevIntent_logo.png';
 import GoogleLogo from '../assets/sponsors/Google_2015_logo.png';
 import INITLogo from '../assets/sponsors/INIT_logo.png';
@@ -20,23 +21,23 @@ const SponsorLogos = () => (
       </div>
     </section>
 
-    {/* <section className="my-20">
+    <section className="my-20">
       <h3 className="my-10 font-semibold">Gold</h3>
-      <div className="flex w-full h-full justify-center">
-        <a href="https://www.google.com">
-          <img
-            src={GoogleLogo}
-            alt="Logo"
-            className="object-contain h-48 w-full"
-          ></img>
-        </a>
-      </div>
-    </section> */}
+      <div className='flex w-full h-full px-10 justify-center border-slate-100'>
+          <a href='https://www.cobuildlab.com/' target='blank'>
+            <img
+              src={Cobuild}
+              alt='Cobuild Logo'
+              className='object-contain h-36 w-full'
+              />
+          </a>
+        </div>
+    </section>
 
     <section className='my-20'>
       <h3 className='my-10 font-semibold'>Silver</h3>
       <div className='w-1/2 grid grid-cols-1 md:grid-cols-2 mx-auto'>
-        <div className='flex w-full h-full px-10 justify-center border-slate-100'>
+      <div className='flex w-full h-full px-10 justify-center'>
           <a href='https://www.bexrealty.com/' target='blank'>
             <img
               src={BEXRealtyLogo}
