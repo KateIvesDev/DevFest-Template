@@ -1,58 +1,58 @@
-import React from 'react';
-import BEXRealtyLogo from '../assets/sponsors/BEX_Logo.jpg';
-import Cobuild from '../assets/sponsors/cobuild.png';
-import DevIntentLogo from '../assets/sponsors/DevIntent_logo.png';
-import GoogleLogo from '../assets/sponsors/Google_2015_logo.png';
-import INITLogo from '../assets/sponsors/INIT_logo.png';
-import JetBrainsLogo from '../assets/sponsors/jb_beam.png';
+import React from "react";
+import BEXRealtyLogo from "../assets/sponsors/BEX_Logo.jpg";
+import Cobuild from "../assets/sponsors/cobuild.png";
+import DevIntentLogo from "../assets/sponsors/DevIntent_logo.png";
+import GoogleLogo from "../assets/sponsors/Google_2015_logo.png";
+import INITLogo from "../assets/sponsors/INIT_logo.png";
+import JetBrainsLogo from "../assets/sponsors/jb_beam.png";
 
 const SponsorLogos = () => (
-  <div className='text-center my-20'>
+  <div className="text-center my-20">
     <h2>Sponsors</h2>
     <p>Thank you to our sponsors for their generous support.</p>
 
-    <section className='my-20'>
-      <h3 className='my-10 font-semibold'>Platinum</h3>
-      <div className='flex w-full h-full px-10 justify-center'>
+    <section className="my-20">
+      <h3 className="my-10 font-semibold">Platinum</h3>
+      <div className="">
         <img
           src={GoogleLogo}
-          alt='Google Logo'
-          className='object-contain h-36 w-full'
+          alt="Google Logo"
+          className="object-contain h-56 w-3/4 md:w-full px-2 mx-auto"
         ></img>
       </div>
     </section>
 
     <section className="my-20">
       <h3 className="my-10 font-semibold">Gold</h3>
-      <div className='flex w-full h-full px-10 justify-center border-slate-100'>
-          <a href='https://www.cobuildlab.com/' target='blank'>
-            <img
-              src={Cobuild}
-              alt='Cobuild Logo'
-              className='object-contain h-36 w-full'
-              />
-          </a>
-        </div>
+      <div className="">
+        <a href="https://www.cobuildlab.com/" target="blank">
+          <img
+            src={Cobuild}
+            alt="Cobuild Logo"
+            className="object-contain h-32 w-3/4 md:w-full px-2 mx-auto"
+          />
+        </a>
+      </div>
     </section>
 
-    <section className='my-20'>
-      <h3 className='my-10 font-semibold'>Silver</h3>
-      <div className='w-1/2 grid grid-cols-1 md:grid-cols-2 mx-auto'>
-      <div className='flex w-full h-full px-10 justify-center'>
-          <a href='https://www.bexrealty.com/' target='blank'>
+    <section className="my-20">
+      <h3 className="my-10 font-semibold">Silver</h3>
+      <div className="w-full md:w-1/2 grid grid-cols-1 md:grid-cols-2 mx-auto">
+        <div className="">
+          <a href="https://www.bexrealty.com/" target="blank">
             <img
               src={BEXRealtyLogo}
-              alt='BEX Realty Logo'
-              className='object-contain h-56 w-full rounded-2xl overflow-hidden'
+              alt="BEX Realty Logo"
+              className="object-contain h-56 w-full px-2"
             />
           </a>
         </div>
-        <div className='flex w-full h-full px-10 justify-center border-slate-100'>
-          <a href='https://www.devintent.com/' target='blank'>
+        <div className="">
+          <a href="https://www.devintent.com/" target="blank">
             <img
               src={DevIntentLogo}
-              alt='DevIntent Logo'
-              className='object-contain h-56 w-full rounded-2xl overflow-hidden'
+              alt="DevIntent Logo"
+              className="object-contain h-56 w-full px-2"
             />
           </a>
         </div>
@@ -78,31 +78,31 @@ const SponsorLogos = () => (
     </section> */}
 
     <section>
-      <h3 className='my-10 font-semibold'>Supporters</h3>
-      <div className='w-1/2 grid grid-cols-1 md:grid-cols-1 mx-auto'>
-        <div className=''>
+      <h3 className="my-10 font-semibold">Supporters</h3>
+      <div className="w-1/2 grid grid-cols-1 md:grid-cols-1 mx-auto">
+        <div className="">
           <a
-            href='http://www.weareinit.org/'
-            target={'_blank'}
-            rel='noreferrer'
+            href="http://www.weareinit.org/"
+            target={"_blank"}
+            rel="noreferrer"
           >
             <img
               src={INITLogo}
-              alt='INIT Logo'
-              className='object-contain h-36 w-full px-2'
+              alt="INIT Logo"
+              className="object-contain h-36 w-full px-2"
             ></img>
           </a>
         </div>
-        <div className=''>
+        <div className="">
           <a
-            href='https://www.jetbrains.com/'
-            target={'_blank'}
-            rel='noreferrer'
+            href="https://www.jetbrains.com/"
+            target={"_blank"}
+            rel="noreferrer"
           >
             <img
               src={JetBrainsLogo}
-              alt='JetBrains Logo'
-              className='object-contain h-36 w-full px-2'
+              alt="JetBrains Logo"
+              className="object-contain h-36 w-full px-2"
             ></img>
           </a>
         </div>
