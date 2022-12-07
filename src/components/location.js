@@ -1,4 +1,5 @@
 import React from 'react';
+import VenueMap from '../assets/devfest-map.png';
 import VenueImage from '../assets/PG6.jpg';
 
 const LocationSection = () => (
@@ -14,7 +15,7 @@ const LocationSection = () => (
           <img
             src={VenueImage}
             className='rounded-2xl overflow-hidden'
-            alt='LOCATION'
+            alt='Florida International University PG6 Tech Station'
           ></img>
         </a>
       </div>
@@ -64,6 +65,14 @@ const LocationSection = () => (
           </a>
           for sponsoring DevFest Florida on campus.
         </p>
+      </div>
+    </div>
+    <div className='w-10/12 sm:my-5 mx-auto grid grid-cols-1'>
+      <div className='mx-auto px-4'>
+          <img
+            src={VenueMap}
+            alt='DevFest Map'
+          ></img>
       </div>
     </div>
   </section>
