@@ -1,6 +1,6 @@
 import React from 'react';
-import VenueMap from '../assets/devfest-map.png';
-import VenueImage from '../assets/PG6.jpg';
+import VenueMap from '../assets/2023/maps.seminolestate.edu.png';
+import VenueImage from "../assets/2023/up.jpeg";
 
 const LocationSection = () => (
   <section className='my-20'>
@@ -8,14 +8,14 @@ const LocationSection = () => (
     <div className='w-10/12 sm:my-5 mx-auto grid grid-cols-1 lg:grid-cols-2'>
       <div className='mx-auto px-4'>
         <a
-          href='https://goo.gl/maps/rYArwaGWq8tW533d9'
+          href='https://goo.gl/maps/LXtoPLKqmNpmh6VZ7'
           target={'_blank'}
           rel='noreferrer'
         >
           <img
             src={VenueImage}
             className='rounded-2xl overflow-hidden'
-            alt='Florida International University PG6 Tech Station'
+            alt='Seminole State College Wayne M. Densch Partnership Center'
           ></img>
         </a>
       </div>
@@ -24,45 +24,33 @@ const LocationSection = () => (
           We're excited to announce that DevFest{' '}
           {process.env.REACT_APP_CHAPTER_NAME} will take place at{' '}
           <span className='font-semibold'>
-            Florida International University PG6 Tech Station
+          Seminole State College Wayne M. Densch Partnership Center
           </span>
         </p>
 
         <a
-          href='https://goo.gl/maps/rYArwaGWq8tW533d9'
+          href='https://goo.gl/maps/LXtoPLKqmNpmh6VZ7'
           className='hover:text-Blue500 lg:text-left'
           target={'_blank'}
           rel='noreferrer'
         >
           <p className='text-lg'>
-            FIU PG6 Tech Station
+          Seminole State College Wayne M. Densch Partnership Center
             <br />
-            11200 SW 8th St
+            100 Weldon Blvd
             <br />
-            FL 33199
+            Sanford, FL 32773
           </p>
         </a>
 
         <p className='text-xl lg:text-left lg:pt-0'>
           Special thanks to{' '}
-          <a href='https://www.fiu.edu/' target={'_blank'} rel='noreferrer'>
+          <a href='https://www.seminolestate.edu/' target={'_blank'} rel='noreferrer'>
             <span className='font-semibold'>
-              Florida International University
+            Seminole State College
             </span>
             {', '}
           </a>{' '}
-          <a href='https://upe.cs.fiu.edu/' target={'_blank'} rel='noreferrer'>
-            <span className='font-semibold'>UPE</span>
-          </a>
-          {', '}
-          and{' '}
-          <a
-            href='http://www.weareinit.org/'
-            target={'_blank'}
-            rel='noreferrer'
-          >
-            <span className='font-semibold'>INIT</span>{' '}
-          </a>
           for sponsoring DevFest Florida on campus.
         </p>
       </div>

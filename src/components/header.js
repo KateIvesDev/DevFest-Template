@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/DevFest-2022-Logo.png";
+import logo from "../assets/2023/DevFest-2023-Logo.png";
 import HamburgerMenu from "./hamburger.js";
 import Navbar from "./navbar.js";
 
@@ -15,12 +15,12 @@ const Header = () => (
         <Navbar />
       </div>
       <div className="hidden lg:block">
-        <a
+        {/* <a
           href={process.env.REACT_APP_DEVFEST_REGISTRATION_URL}
           className="text-white bg-Red500 hover:bg-Red500 hover:text-white rounded-full text-md px-6 py-4 mx-2"
         >
           Register
-        </a>
+        </a> */}
       </div>
       <div className="">
         <HamburgerMenu />
