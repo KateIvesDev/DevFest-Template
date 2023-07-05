@@ -60,6 +60,7 @@ const LocationSection = () => (
           <img
             src={VenueMap}
             alt='DevFest Map'
+            className='rounded-2xl overflow-hidden'
           ></img>
       </div>
     </div>
