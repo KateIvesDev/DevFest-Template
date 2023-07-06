@@ -54,7 +54,7 @@ const Sidebar = () => {
                     {/* <li className='my-5 text-white'><a href={process.env.REACT_APP_DEVFEST_REGISTRATION_URL}>Register</a></li> */}
                     <li className='my-5'><NavLink onClick={() => handleCloseMenu()} to="/speakers" className='text-white'>Speakers</NavLink> </li>
                     <li className='my-5'><NavLink onClick={() => handleCloseMenu()} to='/sponsors' className='text-white'>Sponsors</NavLink> </li>
-                    <li className='my-5'><NavLink onClick={() => handleCloseMenu()} to='/schedule' className='text-white'>Schedule</NavLink></li>
+                    {/* <li className='my-5'><NavLink onClick={() => handleCloseMenu()} to='/schedule' className='text-white'>Schedule</NavLink></li> */}
                     <li className='my-5'><NavLink onClick={() => handleCloseMenu()} to='/location' className='text-white my-2 flex-row'>Location</NavLink> </li>
                     <li className='my-5'><NavLink onClick={() => handleCloseMenu()} to='/code-of-conduct' className='text-white my-2 block'>Code of Conduct</NavLink></li>
                     <li className='my-5'><NavLink onClick={() => handleCloseMenu()} to='/volunteer' className='text-white my-2 block'>Volunteer</NavLink></li>
